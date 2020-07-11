@@ -1,0 +1,44 @@
+:root {
+    --dark-grey: #213246;
+    --light-grey: #657b90;
+    --dark-cyan: #53a8e9;
+    --light-cyan: #4d9cd7;
+    --icons-cyan: #356f9d;
+    --background-grey: #f5f6f8;
+    --fonts-grey: #acadaf;
+    --fonts-dark: #04152f;
+    --white: #fff;
+    --black: #000;
+}
+
+body {
+    background-color: var(--background-grey);
+}
+
+.container {
+    background-color: var(--white);
+    min-height: 300px;
+    grid-column-gap: 0;
+}
+
+.left-aside {
+    background-color: aqua;
+}
+
+.right-aside {
+    background-color: indigo;
+}
+
+.nav {
+    height: 70px;
+    background-color: green;
+}
+
+.content {
+    background-color: hotpink;
+}
+
+.main {
+    grid-gap: 0;
+    grid-template-rows: 70px auto;
+}
