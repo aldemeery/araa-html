@@ -18,3 +18,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Cover image and main content.
 - Login page.
 - Registration page.
+- Dropdown menu.
