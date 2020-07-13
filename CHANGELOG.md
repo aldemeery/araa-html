@@ -13,3 +13,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Left aside styles.
 - Navigation bar styles.
 - User profile right aside.
+- Right aside counters.
