@@ -15,3 +15,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - User profile right aside.
 - Right aside counters.
 - Right aside followers.
+- Cover image and main content.
