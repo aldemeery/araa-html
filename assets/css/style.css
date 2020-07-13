@@ -405,12 +405,14 @@ ul {
     background-color: var(--dark-cyan);
 }
 
+.login-form,
 .registration-form {
     margin: 0 auto;
     width: 300px;
     margin-top: 20%;
 }
 
+.login-form > form > input[type="text"],
 .registration-form > form > input[type="text"] {
     padding: 5px 10px;
     height: 35px;
@@ -418,17 +420,24 @@ ul {
     border: 1px solid var(--dark-cyan);
 }
 
+.registration-form > form > input {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.login-form > form > input[type="text"]::placeholder,
 .registration-form > form > input[type="text"]::placeholder {
     color: var(--dark-cyan);
 }
 
-.registration-form .btn {
+.login-form .btn {
     background-color: var(--white);
     color: var(--dark-cyan);
     border: 1px solid var(--dark-cyan);
 }
 
-.registration-form .btn:hover {
+.login-form .btn:hover {
     color: var(--white);
     background-color: var(--dark-cyan);
     border: 1px solid var(--dark-cyan);
@@ -437,9 +446,11 @@ ul {
 .register-btn {
     display: block;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
     background-color: var(--dark-cyan) !important;
     color: var(--white) !important;
+    height: 40px;
+    width: 100%;
 }
 
 .tlogo {
@@ -449,4 +460,9 @@ ul {
     color: var(--dark-cyan);
     font-size: 8em;
     margin-bottom: 50px;
+}
+
+.file-input {
+    margin-bottom: 15px;
+    display: block;
 }

@@ -16,3 +16,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Right aside counters.
 - Right aside followers.
 - Cover image and main content.
+- Login page.
+- Registration page.

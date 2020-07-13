@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Araa</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/aldemeery/griddle@latest/griddle.min.css"
+        />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="left col-6"></div>
+            <div class="right col-6">
+                <div class="registration-form">
+                    <i class="fab fa-twitter tlogo"></i>
+                    <form action="./index.html">
+                        <input
+                            type="text"
+                            name="username"
+                            id="username"
+                            placeholder="Full name (e.g. John Doe)"
+                        />
+                        <input
+                            type="text"
+                            name="username"
+                            id="username"
+                            placeholder="Username (e.g. johndoe)"
+                        />
+                        <label for="cover_image">
+                            Cover Image (1200 x 360)
+                            <input
+                                type="file"
+                                class="file-input"
+                                name="cover_image"
+                                id="cover_image"
+                            />
+                        </label>
+                        <label for="profile_image">
+                            Profile Image (300 x 300)
+                            <input
+                                type="file"
+                                class="file-input"
+                                name="profile_image"
+                                id="profile_image"
+                            />
+                        </label>
+                        <button type="submit" class="btn register-btn no-decor">
+                            Register
+                        </button>
+                    </form>
+                    <a href="./login.html" class="btn register-btn no-decor">
+                        Login
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script
+            src="https://kit.fontawesome.com/5e5550bba8.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
