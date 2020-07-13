@@ -22,7 +22,7 @@ ul {
     list-style-type: none;
 }
 
-.container {
+.container-fluid {
     background-color: var(--white);
     min-height: 300px;
     grid-column-gap: 0;
